@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Felipa&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <h1>Contacts</h1>
+      <!--Navigation Bar-->
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+
+
+
+    </ul>
+
+
+    <!--End of Navigation Bar-->
+
+    <form onsubmit="handleSubmit(event)">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name"><br><br>
+       
+        <label for="message">Message:</label><br>
+        <textarea id="message"></textarea><br><br>
+       
+        <button type="submit">Send</button>
+       </form>
+       
+       <p id="response"></p>
+
+       
+
+    
+       <script src="imagecarousel.js"></script>
+</body>
+</html>
